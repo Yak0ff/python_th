@@ -4,6 +4,11 @@ from pygame.draw import *
 import random
 
 def cloud (num_cloud, scr):
+    """
+    This is my fun to draw some clouds
+    nam_cloud - cloud quantity
+    scr - surface where draw clouds
+    """
     x = 100; y = 100; i = 1
     for i in range(num_cloud):
         circle(scr, 'black', (x, y), 31, 1)
